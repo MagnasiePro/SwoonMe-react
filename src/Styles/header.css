@@ -1,0 +1,113 @@
+.header {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 100%;
+    height: 20vh;
+    /* background-color: #f0b3bb; */
+    justify-content: center;
+    align-items: center;
+}
+
+.top {
+    display: flex;
+    flex: 1;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom {}
+
+.logoTitle {
+    font-family: 'Comfortaa';
+    font-weight: bold;
+    color: #e96f95;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* Search Bar*/
+.search-bar-container {
+    display: flex;
+    width: 40%;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    border: 2px solid var(--pink-chintz);
+}
+
+.search-bar-input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    border-radius: 30px;
+    color: #e96f95;
+}
+
+.search-bar-input:focus {
+    outline: none;
+}
+
+.search-bar-input::placeholder {
+    color: #e96f95;
+}
+
+.search-bar-icon {
+    padding: 10px;
+    text-align: center;
+    color: #f7e6ed;
+}
+
+/* HeaderButtons */
+.button-icon {
+    font-size: 1.5em;
+}
+
+.button-icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 0;
+    color: #e96f95;
+    margin: 0 10px;
+}
+
+.button-icon-container:hover {
+    color: #f7e6ed;
+}
+
+.label {}
+
+.header-buttons-menu-container {
+    display: flex;
+}
+
+.button-item-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 0;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 0 10px;
+}
+
+.button-item-container:hover {
+    background-color: var(--pink-chintz);
+}

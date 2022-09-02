@@ -32,7 +32,25 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: local('Comfortaa'), url(../src/Assets/Fonts/Comfortaa-Regular.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  font-weight: bold;
+  src: local('Comfortaa'), url(../src/Assets/Fonts/Comfortaa-Bold.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  font-weight: 100;
+  src: local('Comfortaa'), url(../src/Assets/Fonts/Comfortaa-Light.ttf) format('opentype');
 }
