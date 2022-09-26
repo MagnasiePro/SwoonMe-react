@@ -1,11 +1,11 @@
 import './App.css';
-import Default from './Templates/Default';
 import React from 'react';
+import Home from './Pages/Home';
 
 function App() {
   return (
     <div className="App">
-      <Default />
+      <Home />
     </div>
   );
 }

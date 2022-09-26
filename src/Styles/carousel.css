@@ -1,0 +1,25 @@
+.carousel-provider {}
+
+.image-slide {
+    height: 10em;
+    width: 20em;
+}
+
+.button {
+    background-color: transparent;
+    border-width: 0px;
+    font-size: 2em;
+    text-align: center;
+}
+
+.button-back {
+    position: relative;
+    bottom: 200px;
+    right: 400px;
+}
+
+.button-next {
+    position: relative;
+    bottom: 200px;
+    left: 400px;
+}
